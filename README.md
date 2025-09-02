@@ -83,17 +83,6 @@ gcc -g -O1 -std=c11 -Wall -Wextra -fsanitize=address,undefined <file.c> -o app
 - **테스트 케이스**: 경계 조건(빈 리스트, 단일 노드, 중복 키 등) 포함
 - **반환값 설계**: 성공/실패를 `int`/`enum`으로 명확히 반환
 
----
-
-## 🔧 폴더별 서브 README (선택)
-
-각 폴더(`assignment/`, `middle/`, `final/`)에 개별 `README.md`를 두고 다음 항목을 안내하면 좋습니다.
-
-- 문제/과제 설명 요약
-- 파일 목록과 역할(예: `list.c`: 이중연결리스트, `stack.c`: 스택 구현)
-- 빌드/실행 방법(파일별 또는 전체)
-- 주요 함수 시그니처와 간단 설명
-- 주의 사항(입력 형식, 최대 크기, 에러 처리 등)
 
 ---
 
@@ -115,12 +104,3 @@ gcc -g -O1 -std=c11 -Wall -Wextra -fsanitize=address,undefined <file.c> -o app
 - Owner: @byoung-woo
 - Contact: 저장소 이슈 또는 PR로 소통
 
----
-
-## ✅ 체크리스트 (Self-Review)
-
-- [ ] 입력 버퍼 폭 제한 적용 (`scanf("%Ns", ...)`)
-- [ ] `malloc` 실패 처리 및 `freeAll()` 제공
-- [ ] 경계 케이스 테스트: 빈 구조, 1개 노드, 중복 키 등
-- [ ] README에 실행 예시/설명 추가
-- [ ] `-Wall -Wextra -fsanitize`로 정적/동적 점검 진행
