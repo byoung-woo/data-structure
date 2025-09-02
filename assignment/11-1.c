@@ -52,7 +52,7 @@ void print(void){
 
 int delete(char*name){
 	struct node *ptr;
-	for(ptr=head; ptr; ptr->next){
+	for (ptr = head; ptr; ptr = ptr->next) {
 		if(!strcmp(name, ptr->name)){
 			if(!(ptr->prev)){
 				head=ptr->next;
@@ -66,7 +66,7 @@ int delete(char*name){
 			}
 		free(ptr);
 		printf("========delete node=======\n");
-		return OK
+		return OK;
 		}
 	}
 }
