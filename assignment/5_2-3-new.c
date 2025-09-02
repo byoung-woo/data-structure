@@ -3,7 +3,7 @@
 #include <ctype.h>
 int main(){
 
-	char str[512] = "It is useful Wher a statement Is needed sYntactically, bu no action is reQUired";
+	char str[512] = "It is useful Where a atatement Is needed sYntactically, but no action is reQUired";
 	char new[512];
 	int i;
 	for(i=0; i<strlen(str);i++){
