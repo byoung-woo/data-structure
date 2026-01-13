@@ -1,13 +1,16 @@
 #include <stdio.h>
 
-void delChars(char *str1, int n, int m){
-	char *new;
-	int len=0;
-	while(*str1!=0)
-		len++;
-	for(int i=0; i<n; i++)
-		new[i]=str1[i];
-	for(int i=0; )
+void delChars(char *str1, int n, int m) {
+    int len = 0;
+    while (str1[len] != '\0') len++;
+
+    if (n >= len) return; 
+    if (n + m > len) m = len - n; 
+
+   
+    for (int i = n + m; i <= len; i++) {
+        str1[i - m] = str1[i];
+    }
 }
 
 int main() {

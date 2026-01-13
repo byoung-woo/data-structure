@@ -92,7 +92,7 @@ int main()
             if(add(age, name, message)==OK)
                 printf("\t\tadded successfully.\n");
             else   
-         :       printf("\t\tadd fail\n");
+                printf("\t\tadd fail\n");
 
         }
         else if(!strcmp(command, "delete"))

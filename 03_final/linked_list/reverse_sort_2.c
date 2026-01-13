@@ -187,7 +187,7 @@ int findAge(char *name){
 }
 int insert(char *toName, char *name, int age, char *msg){
 	struct mystr *new, *ptr;
-	int fount=0;
+	int found=0;
 	if((new=malloc(sizeof(struct mystr)))==NULL){
 		return NOTOK;
 	}
@@ -209,13 +209,13 @@ int insert(char *toName, char *name, int age, char *msg){
 			found = 1;
 		}
 	}
-	if(fount==0){
+	if(found==0){
 	free(ptr->message);
 	free(ptr);
 	return NOTOK;
 	}
 	return NOTOK;
-}
+}	
 int delodds(){
 	struct mystr *ptr, *next;
 	int index=0;

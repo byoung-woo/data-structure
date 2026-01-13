@@ -11,7 +11,7 @@ int main (void){
 	}
 	while(
 
-	fread(str, sizeof(str), fpSrc)!=NULL){
+	fread(str, sizeof(str), fpSrc) != NULL){
 		fputs(str, fpDst);
 	}
 	fclose(fpSrc); fclose(fpDst);

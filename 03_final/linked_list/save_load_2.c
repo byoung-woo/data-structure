@@ -109,17 +109,14 @@ void print(void){
 	printf("=====================\n");
 }
 
-void removeLink(void){
-	struct mystr *ptr;
-	
-	while(ptr){
-	ptr=head;
-	head=ptr->next;
-	free(ptr->message);
-	free(ptr);
-	
-	}
-	
+void removeLink(void) {
+    struct mystr *ptr;
+    while (head != NULL) {
+        ptr = head;
+        head = head->next; 
+        if (ptr->message != NULL) free(ptr->message); 
+        free(ptr);
+    }
 }
 
 int save(char *fileName){
