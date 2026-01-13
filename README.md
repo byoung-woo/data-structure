@@ -12,8 +12,8 @@
 | **`final/`** | 기말고사 대비 및 자료구조 심화 | `Linked List`, `Double Linked List`, `File I/O`, `malloc` |
 
 ## 🛠️ 개발 환경 (Environment)
-- **Language**: C (Standard C11/C99)
-- **Compiler**: GCC / Clang / MSVC
+- **Language**: C 
+- **Compiler**: GCC
 - **Editor**: VS Code / Visual Studio
 
 ## 🚀 실행 방법 (How to Run)
