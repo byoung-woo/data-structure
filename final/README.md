@@ -1,6 +1,3 @@
-### 4. 💾 final/README.md
-자료구조(연결 리스트)와 파일 처리(기말고사 범위)를 다룹니다.
-
 # 🔗 Data Structures & File I/O (Final Term)
 
 동적 할당(`malloc`)을 이용한 **연결 리스트(Linked List)** 의 구현과 데이터의 영구 저장을 위한 **파일 입출력**을 중점적으로 다룹니다.

@@ -1,6 +1,3 @@
-3. 🧩 middle/README.md
-포인터 활용과 문자열 조작 알고리즘(중간고사 범위)을 다룹니다.
-
 # 🔧 Pointers & String Algorithms (Middle Term)
 
 포인터 연산과 메모리 주소 제어, 그리고 표준 라이브러리 함수들을 직접 구현해보는 심화 실습입니다.

@@ -1,6 +1,3 @@
-### 2. 📝 `assignment/README.md`
-기초 문법과 과제 풀이를 다루는 폴더입니다.
-
 # 🐣 C Programming Assignments
 
 C언어의 기초 문법과 논리적 사고력을 기르기 위한 과제 및 실습 코드 모음입니다.
