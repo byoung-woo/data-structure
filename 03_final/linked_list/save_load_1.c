@@ -87,7 +87,7 @@ int delete(char *name){
 	{
 		if(!strcmp(name, ptr->name))
 		{
-			if(head=ptr)	head=ptr->next;
+			if(head == ptr)	head=ptr->next;
 			else			prev->next=ptr->next;
 		
 			free(ptr->message);
