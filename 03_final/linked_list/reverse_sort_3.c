@@ -130,12 +130,20 @@ int reverse(void){
 	for(last=head; last->next; last=last->next)
 		;
 	current=head;
-	while(current!=NULL){
-		next=current->next;
-		current->next=current->prev;
+	while (current != NULL) {
+			next = current->next; 
+			
+		
+			current->next = current->prev;
+			current->prev = next;
+			
+			current = next; 
+		}
+		
+		head = last; 
 	return OK;
 }
-}
+
 int sort(void){
 	int tmp_age;
 	char tmp_name[100], tmp_msg[55];
