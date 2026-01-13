@@ -14,7 +14,7 @@ int main (void){
 	fread(str, sizeof(str), fpSrc)!=NULL){
 		fputs(str, fpDst);
 	}
-	fclose(spSrc); fclose(fpDst);
-	return0;
+	fclose(fpSrc); fclose(fpDst);
+	return 0;
 }
 
